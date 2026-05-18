@@ -1,0 +1,38 @@
+# ==========================================
+# Data & Large Outputs (CRITICAL for this project)
+# ==========================================
+# Ignore raw data directories and parquet files
+*.parquet
+*.parquet/
+data/
+DATA_DIR/
+
+# Ignore your heavy prediction CSV outputs
+*.csv
+output/
+outputs/
+results/
+
+# ==========================================
+# Jupyter Notebook & Python Artifacts
+# ==========================================
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# VS Code & System Files
+# ==========================================
+.vscode/
+.DS_Store
+Thumbs.db
