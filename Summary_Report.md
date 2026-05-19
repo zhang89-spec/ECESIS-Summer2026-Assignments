@@ -1,5 +1,9 @@
 # Assignment 1: Constraint Mapping Across Data Sources
 
+## **0. Matched Results (CSV):** 
+
+[Download Matched Constraints (CSV)](https://drive.google.com/file/d/1hSFG4FkuELXhBAWss0jg-Wuh4UWNhnCk/view?usp=sharing)
+
 ## 1. Overview
 
 This project maps power grid constraints across  **PJMISO Market** ,  **Dayzer** , and **Panorama** data. By combining domain heuristics with fuzzy matching, the pipeline successfully aligns varying naming conventions to provide a unified view of congestion risk.
@@ -27,6 +31,17 @@ Based on the 5,230 PJMISO Market constraints:
 * **Topology-Based Graph Matching:** Decompose Dayzer Interfaces into "FROM" and "TO" nodes to map directly against PJM bus topology, reducing reliance on pure string similarity.
 
 # Assignment 2: Bus-level Load Prediction Pipeline
+
+## 0. Model Predictions (2025 Calendar Year High-Resolution)
+
+Due to GitHub's file size limitations (100MB), the full high-resolution hourly forecast outputs for the calendar year 2025 are securely hosted on Google Drive.
+
+You can download the final predictions directly via the links below:
+
+* **Task 1: Day-Ahead Forecast Results**
+  * [Download Day-Ahead Predictions (CSV)](https://drive.google.com/file/d/1ViCtB_Ekm0GJlyUYgUAcWJcATcS1an-r/view?usp=sharing)
+* **Task 2: Next-Month Forecast Results**
+  * [Download Next-Month Predictions (CSV)](https://drive.google.com/file/d/1gwNuA9H5OM2ij-SUh4joU646GdwW5bcS/view?usp=sharing)
 
 ## 1. Executive Summary & Evaluation Metrics
 
